@@ -1,20 +1,33 @@
+# NexusFlow Automation (Portfolio Project)
+
+This project demonstrates my ability to design and implement a dashboard-oriented automation system.
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img src="https://img.shields.io/badge/Status-Beta-emerald?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Stack-React_|_Vite-blue?style=for-the-badge" />
 </div>
 
-# Run and deploy your AI Studio app
+## Features
 
-This contains everything you need to run your app locally.
+- **Modular Dashboard Layout**: Component-based architecture for scalability.
+- **Live System Activity Simulation**: Real-time mock data updates to demonstrate state management.
+- **Scalable UI Architecture**: Designed with Tailwind CSS for consistent design systems.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1MOtfyVbr1Gn68NumVieEQrVgmajXrupx
+## Tech Stack
 
-## Run Locally
+- **React**: Frontend library for building user interfaces.
+- **Vite**: Next-generation frontend tooling.
+- **Tailwind CSS**: Utility-first CSS framework.
+- **Deployed on Vercel**: High-performance edge network.
 
-**Prerequisites:**  Node.js
+## Purpose
 
+This project is part of my professional portfolio to demonstrate frontend system design and UI engineering skills. It specifically highlights my focus on:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **AI Integration**: Designing interfaces for AI-driven workflows.
+- **Automation**: Creating tools that streamline business processes.
+- **Dashboard Design**: Building complex, data-rich user interfaces.
+
+---
+
+_This repository is a showcase project for my portfolio. For inquiries, please contact me via [Email](mailto:contact@prava.com) or [LinkedIn](https://linkedin.com)._

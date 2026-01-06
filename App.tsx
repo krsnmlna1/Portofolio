@@ -4,6 +4,8 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import { PravaPage } from './components/PravaPage';
 
+import ProjectDetailPage from './components/ProjectDetailPage';
+
 const App: React.FC = () => {
   return (
     <BrowserRouter>
@@ -14,6 +16,7 @@ const App: React.FC = () => {
           </Layout>
         } />
         <Route path="/prava" element={<PravaPage />} />
+        <Route path="/project/:projectId" element={<ProjectDetailPage />} />
       </Routes>
     </BrowserRouter>
   );

@@ -17,16 +17,19 @@ const Hero: React.FC = () => {
           System Online
         </div>
         
-        <h1 className="text-5xl md:text-8xl font-black text-white tracking-tighter leading-[0.9] uppercase">
-          {PROFILE.name.split(' ')[0]}<br/>
-          <span className="text-neutral-800">{PROFILE.name.split(' ')[1]}</span>
-          <span className="text-neutral-700 ml-2 md:ml-4">{PROFILE.name.split(' ')[2]}</span>
-        </h1>
+        <div className="flex flex-col gap-2">
+           <h2 className="text-xl md:text-2xl text-emerald-500 font-mono font-medium tracking-tight">
+              AI & Automation-focused Frontend Developer
+           </h2>
+           <h1 className="text-4xl md:text-7xl font-black text-white tracking-tighter leading-[1.1] mb-4">
+             I build dashboards and systems that turn <span className="text-neutral-500">workflows into products.</span>
+           </h1>
+        </div>
         
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-8 border-y border-neutral-900 py-6 mt-4">
             <h2 className="text-sm md:text-base text-neutral-400 font-medium flex items-center gap-3 uppercase tracking-wider">
               <Terminal size={14} className="text-emerald-700" />
-              {PROFILE.role}
+              {PROFILE.name}
             </h2>
             
             <div className="flex items-center gap-4 text-xs text-neutral-600 font-mono">

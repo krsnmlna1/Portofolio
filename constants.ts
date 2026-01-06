@@ -14,8 +14,21 @@ export const PROJECTS: Project[] = [
     title: "NexusFlow AI",
     category: "AI Architecture",
     description: "Autonomous logging and automation architecture designed for high-throughput AI agent systems. Features self-healing pipelines and real-time inference monitoring.",
+    url: "/project/nexus-flow",
     tech: ["Python", "OpenAI API", "Vector DB", "Docker"],
-    status: "Beta"
+    status: "Beta",
+    details: {
+      problem: "Banyak bisnis kecil kesulitan follow-up lead dan buang waktu manual.",
+      solution: "NexusFlow adalah sistem automation berbasis AI untuk klasifikasi lead dan drafting outreach.",
+      features: [
+        "Lead categorization logic",
+        "Workflow automation UI",
+        "Real-time activity logs",
+        "Modular dashboard architecture"
+      ],
+      techStackDetails: ["React", "Vercel"],
+      learned: "Belajar merancang sistem end-to-end, state management, dan UI untuk automation workflow."
+    }
   },
   {
     id: "subly-saas",
@@ -23,7 +36,24 @@ export const PROJECTS: Project[] = [
     category: "SaaS Framework",
     description: "A scalable MVP framework engineered for subscription management. Focuses on tenancy isolation, recurring billing abstraction, and rapid deployment cycles.",
     tech: ["React", "Node.js", "Stripe", "PostgreSQL"],
-    status: "Live"
+    status: "Live",
+    url: "/project/subly-saas",
+    details: {
+      problem: "Banyak creator / SaaS kecil kesulitan mengelola sistem langganan sederhana tanpa biaya besar.",
+      solution: "Subly dirancang sebagai platform subscription management ringan untuk bisnis kecil.",
+      features: [
+        "Product flow design",
+        "Subscription lifecycle modeling",
+        "Frontend architecture planning"
+      ],
+      systemDesign: [
+        "User → Subscribe → Billing cycle",
+        "Role: Admin / Customer",
+        "Subscription states (active, paused, cancelled)"
+      ],
+      statusText: "Product concept & early prototype (portfolio project)",
+      techStackDetails: ["React", "Node.js", "Stripe API"]
+    }
   },
   {
     id: "prism-system",
@@ -31,18 +61,36 @@ export const PROJECTS: Project[] = [
     category: "Design System",
     description: "Modular atomic design system optimized for high-conversion interfaces. Enforces strict consistency across distributed frontend architectures.",
     tech: ["TypeScript", "Tailwind", "Figma", "Storybook"],
-    status: "Live"
-  },
-  {
-    id: "prava-agency",
-    title: "Prava Agency",
-    category: "Web Agency",
-    description: "A modern digital agency website showcasing AI & Blockchain solutions. Built with React, TypeScript, and Vite for optimal performance.",
-    tech: ["React", "TypeScript", "Vite", "Tailwind"],
     status: "Live",
-    url: "https://prava.asia"
+    url: "/project/prism-system",
+    details: {
+      problem: "Content creation dan workflow manual bikin scaling lambat dan tidak konsisten.",
+      solution: "Prism dirancang sebagai AI-assisted system untuk mengelola workflow konten dan ide.",
+      features: [
+        "Dashboard UI",
+        "Workflow abstraction",
+        "Automation-oriented UX"
+      ],
+      keyIdeas: [
+        "Modular workflow",
+        "AI-assisted generation (prompt-based)",
+        "Centralized dashboard"
+      ],
+      statusText: "Concept & UI prototype for AI workflow system",
+      techStackDetails: ["TypeScript", "Tailwind", "OpenAI Integration"]
+    }
   }
 ];
+
+export const AGENCY = {
+  id: "prava-agency",
+  title: "Prava Agency",
+  category: "Web Agency",
+  description: "A modern digital agency website showcasing AI & Blockchain solutions. Built with React, TypeScript, and Vite for optimal performance.",
+  tech: ["React", "TypeScript", "Vite", "Tailwind"],
+  status: "Live",
+  url: "https://prava.asia"
+};
 
 export const ROADMAP: RoadmapItem[] = [
   {

@@ -1,3 +1,14 @@
+export interface ProjectDetails {
+  problem: string;
+  solution: string;
+  features: string[]; // Maps to "What I Worked On" / "What I Built"
+  techStackDetails?: string[];
+  learned?: string;
+  systemDesign?: string[]; // For Subly
+  keyIdeas?: string[]; // For Prism
+  statusText?: string; // For explicit status description
+}
+
 export interface Project {
   id: string;
   title: string;
@@ -6,6 +17,7 @@ export interface Project {
   tech: string[];
   status: 'Live' | 'Beta' | 'Prototype';
   url?: string;
+  details?: ProjectDetails;
 }
 
 export interface RoadmapItem {
