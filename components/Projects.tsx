@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, Box, Layers, Workflow, Plus, Globe } from 'lucide-react';
+import { ArrowUpRight, Box, Layers, Workflow, Plus, Globe, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { PROJECTS } from '../constants';
 
@@ -49,6 +49,7 @@ const Projects: React.FC = () => {
                     {project.category === 'SaaS Framework' && <Box size={18} strokeWidth={1.5} />}
                     {project.category === 'Design System' && <Layers size={18} strokeWidth={1.5} />}
                     {project.category === 'Web Agency' && <Globe size={18} strokeWidth={1.5} />}
+                    {project.category === 'Security Platform' && <Shield size={18} strokeWidth={1.5} />}
                   </div>
                   <ArrowUpRight size={16} className="text-neutral-700 group-hover:text-emerald-500 transition-colors" />
                 </div>

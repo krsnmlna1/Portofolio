@@ -13,7 +13,7 @@ export interface Project {
   id: string;
   title: string;
   description: string;
-  category: 'AI Architecture' | 'SaaS Framework' | 'Design System' | 'Web Agency';
+  category: 'AI Architecture' | 'SaaS Framework' | 'Design System' | 'Web Agency' | 'Security Platform';
   tech: string[];
   status: 'Live' | 'Beta' | 'Prototype';
   url?: string;
