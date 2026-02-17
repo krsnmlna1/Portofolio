@@ -79,6 +79,29 @@ export const PROJECTS: Project[] = [
       statusText: "Concept & UI prototype for AI workflow system",
       techStackDetails: ["TypeScript", "Tailwind", "OpenAI Integration"]
     }
+  },
+  {
+    id: "sentinel-platform",
+    title: "Sentinel Platform",
+    category: "Security Platform",
+    description: "Advanced security monitoring and threat detection platform with real-time analytics. Provides comprehensive infrastructure oversight and automated incident response capabilities.",
+    tech: ["Python", "React", "PostgreSQL", "Redis", "Docker"],
+    status: "Beta",
+    url: "/project/sentinel-platform",
+    details: {
+      problem: "Organizations struggle with real-time security monitoring and lack unified visibility across distributed systems.",
+      solution: "Sentinel Platform provides centralized security monitoring with AI-powered threat detection and automated response workflows.",
+      features: [
+        "Real-time threat detection engine",
+        "Automated incident response workflows",
+        "Unified security dashboard",
+        "Integration with existing security tools",
+        "Anomaly detection using machine learning"
+      ],
+      techStackDetails: ["Python", "React", "PostgreSQL", "Redis", "Docker", "TensorFlow"],
+      learned: "Developed expertise in security architecture, real-time data processing, and building scalable monitoring systems with ML integration.",
+      statusText: "Active development with beta deployment for select clients"
+    }
   }
 ];
 
